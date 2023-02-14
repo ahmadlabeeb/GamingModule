@@ -11,6 +11,8 @@
 		E9045BD6299BF6EA00FF688A /* GamingModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9045BCB299BF6EA00FF688A /* GamingModule.framework */; };
 		E9045BDB299BF6EA00FF688A /* GamingModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045BDA299BF6EA00FF688A /* GamingModuleTests.swift */; };
 		E9045BDC299BF6EA00FF688A /* GamingModule.h in Headers */ = {isa = PBXBuildFile; fileRef = E9045BCE299BF6EA00FF688A /* GamingModule.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9045D15299C132000FF688A /* GammingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045D13299C132000FF688A /* GammingViewController.swift */; };
+		E9045D16299C132000FF688A /* GammingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E9045D14299C132000FF688A /* GammingViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		E9045BCF299BF6EA00FF688A /* GamingModule.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = GamingModule.docc; sourceTree = "<group>"; };
 		E9045BD5299BF6EA00FF688A /* GamingModuleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GamingModuleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9045BDA299BF6EA00FF688A /* GamingModuleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamingModuleTests.swift; sourceTree = "<group>"; };
+		E9045D13299C132000FF688A /* GammingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GammingViewController.swift; sourceTree = "<group>"; };
+		E9045D14299C132000FF688A /* GammingViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GammingViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +75,7 @@
 		E9045BCD299BF6EA00FF688A /* GamingModule */ = {
 			isa = PBXGroup;
 			children = (
+				E9045D12299C130700FF688A /* Scenes */,
 				E9045BCE299BF6EA00FF688A /* GamingModule.h */,
 				E9045BCF299BF6EA00FF688A /* GamingModule.docc */,
 			);
@@ -83,6 +88,15 @@
 				E9045BDA299BF6EA00FF688A /* GamingModuleTests.swift */,
 			);
 			path = GamingModuleTests;
+			sourceTree = "<group>";
+		};
+		E9045D12299C130700FF688A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E9045D13299C132000FF688A /* GammingViewController.swift */,
+				E9045D14299C132000FF688A /* GammingViewController.xib */,
+			);
+			path = Scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +191,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9045D16299C132000FF688A /* GammingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9045BD0299BF6EA00FF688A /* GamingModule.docc in Sources */,
+				E9045D15299C132000FF688A /* GammingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,6 +412,7 @@
 		E9045BE3299BF6EA00FF688A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 77H8P22UE4;
@@ -412,6 +429,7 @@
 		E9045BE4299BF6EA00FF688A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 77H8P22UE4;
